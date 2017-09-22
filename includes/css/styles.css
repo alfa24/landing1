@@ -1,0 +1,528 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+body {
+
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+/*.map {*/
+    /*background: url("../../images/map.png");*/
+    /*!*background-size: cover;*!*/
+    /*background-color: transparent;*/
+    /*!*padding-top: 0px;*!*/
+    /*!*vertical-align: bottom;*!*/
+    /*position:absolute;*/
+    /*width:150%;*/
+    /*height: 80%;*/
+    /*z-index:-1;*/
+/*}*/
+
+
+.sixteen {
+    background: #eff3f6;
+    padding: 40px 20px;
+    border-radius: 0px;
+}
+
+.sixteen .caption {
+    color: #808080;
+    font-size: 22px;
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+    padding: 2px 0;
+}
+
+.sixteen .text {
+    color: #9aa1a9;
+    font-family: 'open sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+.sixteen-caption {
+    color: #696969;
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sixteen-text {
+    color: #a9a9a9;
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    padding-top: 2px;
+    padding-bottom: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.well-large {
+    background-color: white;
+}
+
+.gstyle {
+    background-color: white;
+}
+.gstyle h2 {
+    color: #333333;
+    /*padding-top: 50px;*/
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'open sans', sans-serif;
+    text-align: center;
+    /*line-height: 100%;*/
+}
+
+.gstyle .lead {
+    color: #808080;
+    font-size: 20px;
+    margin-top: 10px;
+    /*padding: 15px 0;*/
+    /*font-family: 'open sans', sans-serif;*/
+    /*text-align: center;*/
+}
+
+.gstyle .text-muted {
+    color: #a9a9a9;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+.gstyle img {
+    margin-left: 30px;
+}
+
+.tarif h1 {
+    color: #808080;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'open sans', sans-serif;
+    margin-top: 10px;
+}
+
+.tarif h3 {
+    color: #808080;
+    font-size: 18px;
+    font-family: 'open sans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+
+.tarif p {
+    text-align: center;
+    color: #808080;
+    font-size: 16px;
+    font-family: 'open sans', sans-serif;
+    margin-top: 16px;
+}
+
+.tarif .btn {
+    border-color: transparent;
+}
+
+.tarif p .price {
+    font-size: 36px;
+    color: #696969;
+    margin-bottom: 0px;
+
+}
+
+.tarif p sup {
+    top: -15px;
+    left: 3px;
+}
+
+.tarif .panel-body {
+    margin-bottom: -18px;
+}
+
+.tarif-gray .panel-body {
+    background-color: #f2f2f2;
+}
+
+.tarif-gray .panel-heading {
+    background-color: #e3e3e3;
+}
+
+.tarif-gray .panel-footer {
+    background-color: #e3e3e3;
+}
+
+.tarif-gray .btn {
+    background-color: #999;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 10px 0px;
+}
+
+.tarif-blue h1 {
+    color: #ffffff;
+}
+
+.tarif-blue p .price {
+    color: #ffffff;
+}
+
+.tarif-blue h3 {
+    color: #d3d3d3;
+}
+
+.tarif-blue p {
+    color: #d3d3d3;
+}
+
+.tarif-blue .panel-body {
+    background-color: #59a3fc;
+    border-color: #59a3fc;
+}
+
+.tarif-blue .panel-heading, .panel-footer {
+    background-color: #3b89e7;
+    border-color: transparent;
+}
+
+.tarif-blue .btn {
+    background-color: #59a3fc;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 10px 0px;
+}
+
+.feadback {
+    background-color: #59a3fc;
+}
+
+.feadback .sixteen {
+    padding-top: 10px;
+}
+
+.feadback .sixteen-caption {
+    color: white;
+    margin-top: -4px;
+    margin-bottom: 27px;
+}
+
+.feadback .sixteen-text {
+    font-size: 24px;
+    line-height: 150%;
+    font-style: italic;
+    color: #ffffff;
+    font-family: 'open sans', sans-serif;
+    text-align: center;
+    width: 64%;
+    margin-left: 18%;
+
+    padding: 10px 0px;
+}
+
+.feadback small {
+    color: #eee;
+    font-size: 14px;
+    margin-left: 10px;
+    padding-top: 2px;
+    vertical-align: super;
+}
+
+.feadback img {
+    vertical-align: baseline;
+}
+
+.contact {
+    background: url("../../images/map.png");
+    background-color: transparent;
+    background-size: contain;
+}
+
+.contact iframe {
+    width: 100%;
+    height: 375px;
+}
+
+.contact h1 {
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'open sans', sans-serif;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.contact p {
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+    color: #808080;
+    padding-bottom: 20px;
+}
+
+.contact .form-control-lg {
+    height: 50px;
+}
+
+.contact .has-error .form-control {
+    border-width: 3px;
+}
+
+.contact .has-success .form-control {
+    border-width: 3px;
+}
+
+#modal-1 .modal-content {
+    background: url("../../images/bg2.png");
+    background-size: cover;
+    height: 390px;
+    border-color: #3c3c3c;
+    margin-top: 20%;
+}
+
+#modal-1 .close {
+    position: relative;
+    background: url("../../images/X.png");
+    width: 34px;
+    height: 34px;
+    top: -20px;
+    right: -20px;
+}
+
+#modal-1 .caption {
+    text-align: center;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 35px;
+    width: 500px;
+    max-width: 100%;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    padding-top: 40px;
+}
+
+#modal-1 .text {
+    text-align: center;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer .panel-footer {
+    background: #F2F2F2;
+}
+
+footer p {
+    color: #a9a9a9;
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+    text-align: left;
+    padding-top: 25px;
+    position: relative;
+    display: inline-block;
+}
+
+footer p .blue {
+    color: #11b1c2;
+}
+
+footer .label {
+    padding-top: 18px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer .label-default {
+        background: rgba(0,0,0,0.1);
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+/* --------------------------------------
+   Header
+   -------------------------------------- */
+.bg {
+    background: url("../../images/bg.png");
+    background-size: cover;
+    background-color: transparent;
+    padding-top: 0px;
+    margin-top: -78px;
+    position:fixed;
+    width:100%;
+    height: 100%;
+    z-index:-1;
+}
+
+.masthead {
+    background-color: transparent;
+    padding-top: 30px;
+    z-index:101;
+}
+
+.masthead #title {
+
+}
+
+.masthead .text-muted {
+    margin-right: 15px;
+}
+
+.masthead .button {
+    /*float: right;*/
+    height: 32px;
+    width: 32px;
+    margin-left: 7px;
+}
+
+.masthead .fb {
+    background: url("../../images/social/facebook.png");
+}
+
+.masthead .tw {
+    background: url("../../images/social/twitter.png");
+}
+
+.masthead .yt {
+    background: url("../../images/social/yt.png");
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+#title h1 {
+    font-size: 44px;
+    color: #fff;
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+    line-height: 100%;
+    padding-top: 105px;
+}
+
+#title .btn {
+    width: 222px;
+    margin-bottom: 20px;
+    background-color: #59a3fc;
+    border-color: #59a3fc;
+    border-radius: 2px;
+}
+
+#title .lead {
+    max-width: 70%;
+    margin-left: 15%;
+    color: #d3d3d3;
+    font-size: 18px;
+    font-family: 'open sans', sans-serif;
+    margin-bottom: 7px;
+    line-height: 30px;
+}
+
+#title .text-info {
+    color: #add8e6;
+    margin-bottom: 200px;
+}
+
+.title-bottom {
+    height: 200px;
+}
+
+.clients {
+    padding-top: 26px;
+    padding-bottom: 56px;
+}
+
+.clients .col-sm-3 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.clients-num {
+    font-size: 36px;
+    font-weight: bold;
+    color: #59a3fc;
+    font-family: 'open sans', sans-serif;
+    display: inline-block;
+    position: relative;
+}
+
+.clients-text {
+    font-size: 16px;
+    color: #808080;
+    font-family: 'open sans', sans-serif;
+    display: inline-block;
+    position: relative;
+    width: 55%;
+    padding-left: 10px;
+    text-align: left;
+
+}
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+    .container {
+        width: 300px;
+    }
+
+    .gstyle h2 {
+        font-size: 20px;
+    }
+
+    .gstyle .lead {
+        font-size: 16px;
+    }
+
+    .gstyle img {
+        margin-left: 0px;
+    }
+
+    .gstyle .text-muted {
+        font-size: 14px;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+    .container {
+        width: 420px;
+    }
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
