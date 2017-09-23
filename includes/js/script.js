@@ -1,6 +1,4 @@
 $(document).ready(function () {
-
-
     $('#sendContact').click(function (e) {
         e.preventDefault();
         var formValid = true;
@@ -57,5 +55,12 @@ $(document).ready(function () {
         $('#errorAlert').slideUp();
     });
 
-
-})
+    $(' .parallax-window ').parallax({
+        // imageSrc :  'images/bg.png',
+        naturalWidth: 1400,
+        naturalHeight: 800,
+        speed: 0.2,
+        bleed: 10
+    });
+    jQuery(window).trigger('resize').trigger('scroll');
+});

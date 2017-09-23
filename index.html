@@ -22,11 +22,26 @@
 
 </head>
 <body>
+<!--<div class="parallax-window" data-parallax="scroll" data-image-src="images/bg.png"></div>-->
 
+<!--<div class="parallax-window">-->
+<!--<div class="parallax-slider">-->
+<!--<img src="images/bg.png">-->
+<!--</div>-->
 
+<!--<div class="parallax-slider">-->
+<!--<span style="position:fixed; top: 400px; left: 400px;">Some Text</span>-->
+<!--<p>Some other Content</p>-->
+<!--</div>-->
+<!--</div>-->
 
-<div class="masthead">
-    <div class="bg"></div>
+<!--<div class="parallax-window">-->
+<!--<div class="parallax-slider">-->
+<!--<span style="position:absolute; top: 400px; left: 400px;">Some Text</span>-->
+<!--<p>Some other Content</p>-->
+<!--</div>-->
+<!--</div>-->
+<div class="masthead parallax-window" data-parallax="scroll" data-image-src="images/bg.png">
     <!--HEADER-->
     <div class="container">
         <div class="row" id="top">
@@ -124,9 +139,12 @@
             incididunt ut
             labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud.</p>
     </div> <!-- end col-sm-2 -->
-    <div class="col-lg-8 col-lg-offset-2 ">
-        <img src="images/promo-image.png" alt="Promo" class="img-responsive">
-    </div> <!-- end col-sm-2 -->
+    <div class="row text-center">
+        <!--<div class="col-lg-8 col-lg-offset-2 text-center">-->
+            <img src="images/promo-image.png" alt="Promo" class="img-responsive">
+        <!--</div> &lt;!&ndash; end col-sm-2 &ndash;&gt;-->
+    </div> <!-- end row -->
+
 </div> <!-- end well-large -->
 
 
@@ -182,15 +200,17 @@
 <!--SERVICES2-->
 <div class="row text-center gstyle">
 
-    <div class="col-lg-6 col-lg-offset-3 col-sm-10 col-sm-offset-1">
-        <h2><b>Our Services Prices and Plans</b></h2>
-        <h3 class="lead">Our service is astonishingly thin and light.</h3>
-        <p class="text-muted">Lorem ipsum dolor sit amet consectetur enim ad minim veniam quis nostrud.</p>
-    </div> <!-- end col-sm-2 -->
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
+                <h2><b>Our Services Prices and Plans</b></h2>
+                <h3 class="lead">Our service is astonishingly thin and light.</h3>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur enim ad minim veniam quis nostrud.</p>
+            </div> <!-- end col-sm-2 -->
+        </div> <!-- end row -->
+        <div class="row">
+            <div class="col-md-4">
                 <div class="panel panel-default tarif tarif-gray">
                     <div class="panel-heading">
                         <h1>Free</h1>
@@ -213,7 +233,7 @@
                 </div>
             </div> <!-- end col-sm-4 -->
 
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <div class="panel panel-default tarif tarif-blue">
                     <div class="panel-heading">
                         <h1>Personal</h1>
@@ -236,7 +256,7 @@
                 </div>
             </div> <!-- end col-sm-4 -->
 
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <div class="panel panel-default tarif tarif-gray">
                     <div class="panel-heading">
                         <h1>Company</h1>
@@ -273,7 +293,7 @@
         </div> <!-- end row -->
 
         <div class="row text-center">
-            <img src="images/logos.png" alt="Companies">
+            <img class="img-responsive" src="images/logos.png" alt="Companies">
         </div> <!-- end row -->
     </div> <!-- end container -->
 </div> <!-- end rows -->
@@ -299,9 +319,9 @@
 <!--CONTACT-->
 <div id="href_2"></div>
 
-<div class="row contact">
+<div class="row contact parallax-window" data-parallax="scroll" data-image-src="images/map.png">
 
-<div class="map"></div>
+    <!--<div class="map"></div>-->
     <div class="container">
         <div class="row">
 
@@ -426,11 +446,15 @@
 <!-- First try for the online version of jQuery-->
 <script src="http://code.jquery.com/jquery.js"></script>
 
+<!--parallax plugin-->
+<script src="includes/js/parallax.min.js"></script>
+
 <!-- If no online access, fallback to our hardcoded version of jQuery -->
 <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
 
 <!-- Bootstrap JS -->
 <script src="bootstrap/js/bootstrap.min.js"></script>
+
 
 <!-- Custom JS -->
 <script src="includes/js/script.js"></script>
